@@ -4,6 +4,7 @@ import typefaceFont from "three/examples/fonts/helvetiker_regular.typeface.json"
 import { FontLoader } from "three/examples/jsm/loaders/FontLoader.js";
 import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { RectAreaLightHelper } from "three/examples/jsm/helpers/RectAreaLightHelper";
 import {
   BoxGeometry,
   Mesh,
@@ -62,8 +63,8 @@ scene.add(hemisphereLight);
 
 // 矩形区域灯
 const rectAreaLight = new THREE.RectAreaLight(0x4e00ff, 2, 1, 1);
-rectAreaLight.position.set(1.5, 0, 1.5);
-rectAreaLight.lookAt(new THREE.Vector3());
+rectAreaLight.position.set(1.5, 0, 1);
+// rectAreaLight.lookAt(new THREE.Vector3());
 scene.add(rectAreaLight);
 
 // 聚光灯(像手电筒)
@@ -84,6 +85,26 @@ scene.add(spotLight.target);
 // 性能高 环境光 半球灯
 // 性能低 聚光灯 矩形区域灯
 
+// 灯光助手
+const hemisphereLightHelper = new THREE.HemisphereLightHelper(
+  hemisphereLight,
+  0.2
+);
+scene.add(hemisphereLightHelper);
+const directionalLightHelper = new THREE.DirectionalLightHelper(
+  directionalLight,
+  0.2
+);
+scene.add(directionalLightHelper);
+const pointLightHelper = new THREE.PointLightHelper(pointLight, 0.2);
+scene.add(pointLightHelper);
+const spotLightHelper = new THREE.SpotLightHelper(spotLight);
+scene.add(spotLightHelper);
+window.requestAnimationFrame(() => {
+  spotLightHelper.update();
+});
+const rectAreaLightHelper = new RectAreaLightHelper(rectAreaLight);
+scene.add(rectAreaLightHelper);
 // 相机
 const sizes = {
   width: window.innerWidth,
