@@ -11,6 +11,7 @@ const scene = new THREE.Scene();
 // Fonts
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
+  //  使用文本几何
   const textGeometry = new TextGeometry("Li Naomi", {
     font: font,
     size: 0.5,
@@ -22,10 +23,12 @@ fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
     bevelOffset: 0,
     bevelSegments: 5,
   });
-  textGeometry.computeBoundingBox();
+  // 使文本居中
+  textGeometry.computeBoundingBox(); //计算几何体的框边界
   console.log(textGeometry.boundingBox);
   textGeometry.center();
 
+  // 使用matcap纹理
   const textureLoader = new THREE.TextureLoader();
   const matcapTexture = textureLoader.load("/textures/bgGreen.png");
 
@@ -88,6 +91,7 @@ scene.add(camera);
 const canvas = document.querySelector("canvas.webgl"); //todo 这里为什么加canvas.
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
+  antialias: true, //消除锯齿
 });
 
 const controls = new OrbitControls(camera, canvas);

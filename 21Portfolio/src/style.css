@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #1e1a20;
+}
+
+.webgl {
+    /* fixed top0 left0就可以让canvas在后面 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ffeded;
+    /* vw和vh中较小的就是vmin 1vw=1%视口宽度 */
+    font-size: 7vmin;
+}
+
+section:nth-child(odd) {
+    /* odd表示section中的奇数子元素 */
+    justify-content: flex-end;
+}
