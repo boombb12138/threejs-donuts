@@ -26,10 +26,16 @@ Haunted house
 
 Portfolio
 
-![GIF 2023-4-12 15-22-55](E:\工作\产品经理\threejs\learn_threejs\GIF 2023-4-12 15-22-55.gif)
+
+![GIF 2023-4-12 15-22-55](https://user-images.githubusercontent.com/95857565/232049353-351cedf8-8564-478a-93be-2931e1c48351.gif)
 
 
 
  Sphere and Box Collide 
+ 
+ ![GIF 2023-4-14 16-02-31](https://user-images.githubusercontent.com/95857565/232049398-ad039ed2-84fc-4403-9134-6a9d1f5d778f.gif)
 
-![GIF 2023-4-14 16-02-31](E:\工作\产品经理\threejs\learn_threejs\GIF 2023-4-14 16-02-31.gif)
+
+Load Model
+
+![GIF 2023-4-14 20-31-52](https://user-images.githubusercontent.com/95857565/232049530-c1106d0e-a2b1-491a-9ad5-2e34c5d60f40.gif)
