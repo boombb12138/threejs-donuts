@@ -27,3 +27,9 @@ Haunted house
 Portfolio
 
 ![GIF 2023-4-12 15-22-55](E:\工作\产品经理\threejs\learn_threejs\GIF 2023-4-12 15-22-55.gif)
+
+
+
+ Sphere and Box Collide 
+
+![GIF 2023-4-14 16-02-31](E:\工作\产品经理\threejs\learn_threejs\GIF 2023-4-14 16-02-31.gif)

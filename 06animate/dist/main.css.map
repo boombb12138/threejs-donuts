@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,aAAa;AACb;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,eAAe;IACf,MAAM;IACN,OAAO;AACX,C","sources":["webpack:///./src/style.css"],"sourcesContent":["/* 除去周围的滚动条 */\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.webgl {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n}"],"names":[],"sourceRoot":""}
