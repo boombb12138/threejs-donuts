@@ -39,3 +39,10 @@ Portfolio
 Load Model
 
 ![GIF 2023-4-14 20-31-52](https://user-images.githubusercontent.com/95857565/232049530-c1106d0e-a2b1-491a-9ad5-2e34c5d60f40.gif)
+
+
+
+Flag
+![GIF 2023-4-21 21-16-49](https://user-images.githubusercontent.com/95857565/233646588-665a6ff7-948d-4cca-b5a2-acfcfd97fea9.gif)
+
+
