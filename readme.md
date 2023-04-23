@@ -1,5 +1,20 @@
 # Three.js Journey
 
+###  :fireworks: Summary
+
+####  Basic
+
+![Three js Basic](https://user-images.githubusercontent.com/95857565/233827563-6c52fef9-1740-4b1d-8b0e-48337115958d.png)
+
+####  Classic and Advanced
+
+![Three js Classic   Advanced](https://user-images.githubusercontent.com/95857565/233827593-a3d430b1-1554-45a4-9c54-d9b6ec2e06f6.png)
+
+####  Shaders
+![Shaders](https://user-images.githubusercontent.com/95857565/233827613-9cae3048-710e-4b66-8ab2-b28c19e7c7bc.png)
+
+
+###  :flags:  Showcase
 Gradient and angular donut
 
 ![sweet circle](https://user-images.githubusercontent.com/95857565/230353462-a586b5c2-17fd-4fff-8d8f-c451f977dbe5.gif)
